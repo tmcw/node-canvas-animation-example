@@ -7,6 +7,10 @@ and a Video
 
 Requires a recent version of [node.js](https://nodejs.org/).
 
+For Ubuntu or similar, you want to install these packages first:
+
+    sudo apt-get install libcairo2-dev libpangocairo-1.0-0 libpango1.0-dev libjpeg-dev libgif-dev imagemagick gifsicle libav-tools
+
 Clone this repository, and then:
 
     npm install
@@ -34,3 +38,7 @@ And then using gifsicle, create an animated GIF:
 ## Creating a Video
 
     ffmpeg -i frames/%5d.png -c:v libx264 -r 30 -pix_fmt yuv420p circle.mp4
+
+For some Ubuntu versions, `ffmpeg` isn't available, but `avconv` does the same job:
+
+    avconv -i frames/%5d.png -c:v libx264 -r 30 -pix_fmt yuv420p circle.mp4
