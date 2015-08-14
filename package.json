@@ -1,0 +1,21 @@
+{
+  "name": "node-canvas-animation-example",
+  "version": "1.0.0",
+  "description": "an example of using node-canvas to generate gifs and videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "canvas",
+    "animation",
+    "example"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^1.2.7",
+    "leftpad": "0.0.0"
+  }
+}
