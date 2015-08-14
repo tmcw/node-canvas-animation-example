@@ -17,5 +17,9 @@
   "dependencies": {
     "canvas": "^1.2.7",
     "leftpad": "0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmcw/node-canvas-animation-example.git"
   }
 }
