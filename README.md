@@ -1,5 +1,7 @@
 # node-canvas-animation-example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/node-canvas-animation-example.svg)](https://greenkeeper.io/)
+
 An example of how to use `node-canvas` to create an animation as a GIF
 and a Video
 
